@@ -1,0 +1,165 @@
+@charset "uft-8";
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #8D7246;
+    font-style:italic ;
+}
+a:hover {
+    color: #8D7246
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    width: 1205px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    line-height: 40px;
+    margin: 30px 30px 30px 60px;
+}
+section {
+    width: 1280px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #E6D2A2;
+    margin-bottom: 20px;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+article {
+    margin: 20px;
+}
+
+/* layout  */
+body {
+    background-color: gainsboro;
+}
+
+.wrapper {
+    background-color: #596CB0;
+    margin: 0px auto;
+    padding: 10px 7.5px;
+    width: 1280px;
+}
+
+
+header.top-h {
+    width: 1280px;
+    height: 80px;
+    background-color: #1C276A;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+div.logo {
+    float: left;
+    height: 60px;
+    width: 220px;
+    margin: 20px 40px 10px 60px;
+}
+
+.logo h1 {
+    color: #468d53;
+}
+
+.top-nav {
+    float: right;
+    width: 800px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 140px;
+}
+
+.top-nav ul li {
+    width: 200px;
+    float: left;
+
+}
+
+.top-nav ul li a {
+    display: block;
+    line-height: 40px;
+    color: #1C276A;
+    background-color: #E6D2A2;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #1C276A;
+    border-radius: 10px;
+    width: 180px;
+    margin-left: 20px;
+}
+
+.top-nav ul li a:hover {
+    width: 190px;
+    background-color: antiquewhite;
+    box-shadow: 10px 5px 10px 1px #596CB0;
+    transition-duration: 1s;
+}
+
+#pic-main {
+    height: 400px;
+    background-image: url(../images/street_1.jpg );
+}
+
+.sake {
+    width: auto;
+    height: auto;
+    float: left;
+    margin: auto 60px 50px 60px;   
+}
+.company {
+    margin-right: 120px;
+}
+.jpn {
+    width: 500px;
+    float: left;
+    margin-left: 60px;
+    padding-bottom: 30px;
+
+}
+.chn {
+    width: 500px;
+    float: right;
+    padding-bottom: 30px;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.question {
+    float: right;
+    background-color: #E6D2A2;
+    width: 500px;
+    height: 230px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-right: 140px;
+    margin-bottom: 30px;
+
+}
+.foot {
+    width: 1280px;
+    height: 30px;
+    background-color: #1C276A;
+    margin: 0px;
+    color: #E6D2A2;
+    text-align: center;
+    border-radius: 10px;
+}
